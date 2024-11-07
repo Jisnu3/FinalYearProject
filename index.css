@@ -303,7 +303,12 @@ nav ul li a:hover,nav ul li a.active{
         align-items: center;
         
     }
-
+   .contact-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     .footer-container{
         padding: 0;
