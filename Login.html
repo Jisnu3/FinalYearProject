@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn/SignUp</title>
+    <link rel="stylesheet"  href="./Login.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="curved-shape"></div>
+        <div class="curved-shape2"></div>
+        <div class="form-box login">
+            <h2 class="animation" style="--D:0; --S:21">Login</h2>
+            <form action="#">
+                <div class="input-box animation" style="--D:1; --S:22">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                    <i class="fa fa-user"></i>
+                </div>
+                
+                <div class="input-box animation" style="--D:2; --S:23">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                    <i class="fa fa-lock"></i>
+                </div>
+                <div class="input-box animation" style="--D:3; --S:24">
+                    <button class="btn" type="submit">Login</button>
+                </div>
+                <div class="regi-link animation" style="--D:4; --S:25">
+                    <p>Don't have an account ? <a href="#" class="SignUpLink">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="info-content login">
+            <h2 class="animation"style="--D:0;  --S:20">WElCOME BACK!</h2>
+        </div>
+        <div class="form-box register">
+            <h2 class="animation" style="--li:17; --S:0">Register</h2>
+            <form action="#">
+                <div class="input-box animation" style="--li:18; --S:1">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="input-box animation" style="--li:18; --S:1">
+                    <input type="email" required>
+                    <label for="">E-Mail</label>
+                    <i class="fa fa-envelope	
+"></i>
+                </div>
+                <div class="input-box animation" style="--li:19; --S:2">
+                    <input type="password" required>
+                    <label for="">New Password</label>
+                    <i class="fa fa-lock"></i>
+                </div>
+                <div class="input-box animation" style="--li:20; --S:3">
+                    <button class="btn" type="submit">Register</button>
+                </div>
+                <div class="regi-link animation"style="--li:21; --S:4">
+                    <p>Don't have an account ? <a href="#" class="SignInLink">Sign In</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="info-content register">
+            <h2 class="animation" style="--li:17; --S:0;">WElCOME BACK!</h2>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
