@@ -120,7 +120,7 @@ nav ul li a:hover,nav ul li a.active{
 }
   
 
-/* @media (max-width: 900px){
+@media (max-width: 900px){
     nav ul{
         position: fixed;
         top: 65px;
@@ -405,7 +405,7 @@ nav ul li a:hover,nav ul li a.active{
         font-size: 8px;
         padding: 7px;
     }
-} */
+} 
 
 @media screen and (min-width:900px){
     .home h1{
